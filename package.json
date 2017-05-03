@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jmbottch/node-eersteserver/issues"
   },
-  "homepage": "https://github.com/jmbottch/node-eersteserver#readme"
+  "homepage": "https://github.com/jmbottch/node-eersteserver#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
