@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node node_modules/mocha/bin/_mocha ./test/*test.js -- reporter spec",
     "start": "node server.js"
   },
   "repository": {
@@ -19,5 +19,10 @@
   "homepage": "https://github.com/jmbottch/node-eersteserver#readme",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
   }
 }
